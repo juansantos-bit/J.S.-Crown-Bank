@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success Bank v2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>J.S. Crown Bank</h1>
+        <p>Balance: <strong>$<span id="balance-text">0</span></strong></p>
+        
+        <input type="number" id="amount-input" placeholder="Amount">
+        <br>
+        
+        <button class="btn-withdraw" onclick="withdraw()">Withdraw</button>
+        <button class="btn-deposit" onclick="deposit()">Deposit</button>
+        <button class="btn-reset" onclick="resetBalance()">Reset Account</button>
+        
+        <p class="status" id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

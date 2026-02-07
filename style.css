@@ -1,0 +1,56 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+    padding: 50px; 
+    background-color: #BBD8B3; 
+}
+.card { 
+    background: #F3B61F; 
+    padding: 30px; 
+    border-radius: 15px; 
+    display: inline-block; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+}
+input { 
+    padding: 10px; 
+    border: 1px solid #A29F15; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    width: 80%; 
+}
+/* Botão de Saque (Vermelho/Laranja para cuidado) */
+.btn-withdraw { 
+    background-color: #510D0A; 
+    color: #fffefd; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    width: 48%; 
+}
+/* Botão de Depósito (Verde para crescer) */
+.btn-deposit { 
+    background-color: #A29F15; 
+    color: #f6f6f6; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    width: 48%; 
+}
+.status { color: #191102; font-size: 0.9em; margin-top: 15px; }
+
+.btn-reset {
+    background-color: #5f6368; /* Cinza profissional */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px; /* Dá um espaço dos botões de cima */
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; /* Ocupa a linha toda para destacar que é uma ação diferente */
+}
+
+.btn-reset:hover {
+    background-color: #202124; /* Fica mais escuro ao passar o mouse */
+}
